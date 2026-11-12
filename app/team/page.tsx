@@ -3,7 +3,9 @@
 import React from 'react';
 import { ArrowUpRight, Sparkles, Send, CheckCircle2, User, Mail, Phone, MessageSquare } from 'lucide-react';
 import { FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
-
+import Akash from '../../assets/akash.png'
+import Fahad from '../../assets/fahad.jpg'
+import Tanvir from '../../assets/tanvir.jpg'
 const Page = () => {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans antialiased selection:bg-[#fc7f31] selection:text-white">
@@ -32,7 +34,7 @@ const Page = () => {
             <div className="group relative h-[520px] overflow-hidden rounded-3xl bg-slate-100 border border-slate-200 shadow-xl transition-all duration-500 hover:border-[#fc7f31]/50">
               {/* Full Image Container */}
               <img
-                src="https://i.ibb.co.com/XZnCwkyy/photo-2026-10-27-01-53-47.jpg"
+                src={Tanvir.src}
               />
               
               {/* Floating Glassmorphic Details Box (1/3 inside bottom of the card) */}
@@ -67,7 +69,7 @@ const Page = () => {
             <div className="group relative h-[520px] overflow-hidden rounded-3xl bg-slate-100 border border-slate-200 shadow-xl transition-all duration-500 hover:border-[#fc7f31]/50">
               {/* Full Image Container */}
               <img
-                src="https://i.ibb.co.com/Ygjn9TN/Professional-Portrait-with-Warm-Office-Background.png"
+                src={Akash.src}
               />
               
               {/* Floating Glassmorphic Details Box (1/3 inside bottom of the card) */}
@@ -102,7 +104,7 @@ const Page = () => {
             <div className="group relative h-[520px] overflow-hidden rounded-3xl bg-slate-100 border border-slate-200 shadow-xl transition-all duration-500 hover:border-[#fc7f31]/50">
               {/* Full Image Container */}
               <img
-                src="https://i.ibb.co.com/JwH9hW6J/photo-2026-10-27-02-04-07.jpg"
+                src={Fahad.src}
               />
               
               {/* Floating Glassmorphic Details Box (1/3 inside bottom of the card) */}
