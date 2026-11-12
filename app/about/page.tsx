@@ -720,7 +720,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed mb-10 max-w-xl">
-                Our mission is to help businesses turn their ideas into impactful digital solutions that drive growth, improve efficiency, and create lasting value. At <span className="font-extrabold text-[#ff9b06]">Web Mung</span>, we combine strategic thinking, modern technology, and user-focused design to develop reliable, scalable solutions aligned with our clients’ business objectives. We aim to build meaningful partnerships by delivering quality, transparency, and measurable value at every stage of the digital journey
+                Our mission is to help businesses turn their ideas into impactful digital solutions that drive growth, improve efficiency, and create lasting value. At Web <span className="font-extrabold text-[#ff9b06]"> Mung</span>, we combine strategic thinking, modern technology, and user-focused design to develop reliable, scalable solutions aligned with our clients’ business objectives. We aim to build meaningful partnerships by delivering quality, transparency, and measurable value at every stage of the digital journey
               </p>
 
               <div className="flex flex-wrap items-center gap-6 sm:gap-8 lg:gap-12">
