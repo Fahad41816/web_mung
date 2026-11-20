@@ -71,24 +71,48 @@ const About = () => {
             </div>
 
             {/* Bottom Dark Stat Banner */}
-            <div className="bg-[#2B303A] text-white p-6 sm:p-8 rounded-3xl shadow-xl flex items-center justify-around border border-gray-800">
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-extrabold text-[#4ECDC4] mb-1">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
+              {/* Card 1 */}
+              <div className="group relative overflow-hidden rounded-2xl bg-[#1E232A]/80 p-6 border border-white/5 shadow-lg hover:border-[#4ECDC4]/40 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#4ECDC4]/10 rounded-full blur-2xl group-hover:bg-[#4ECDC4]/20 transition-all" />
+                <div className="text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#4ECDC4] to-teal-200 tracking-tight mb-1">
                   50+
                 </div>
-                <div className="text-xs sm:text-sm text-gray-300 font-medium">
+                <div className="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">
                   Projects Delivered
                 </div>
               </div>
 
-              <div className="w-[1px] h-12 bg-gray-700/60" />
-
-              <div className="text-center">
-                <div className="text-3xl sm:text-4xl font-extrabold text-[#FF652F] mb-1">
+              {/* Card 2 */}
+              <div className="group relative overflow-hidden rounded-2xl bg-[#1E232A]/80 p-6 border border-white/5 shadow-lg hover:border-[#FF652F]/40 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#FF652F]/10 rounded-full blur-2xl group-hover:bg-[#FF652F]/20 transition-all" />
+                <div className="text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#FF652F] to-orange-300 tracking-tight mb-1">
                   100%
                 </div>
-                <div className="text-xs sm:text-sm text-gray-300 font-medium">
+                <div className="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">
                   Client Satisfaction
+                </div>
+              </div>
+
+              {/* Card 3 */}
+              <div className="group relative overflow-hidden rounded-2xl bg-[#1E232A]/80 p-6 border border-white/5 shadow-lg hover:border-[#FF652F]/40 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#FF652F]/10 rounded-full blur-2xl group-hover:bg-[#FF652F]/20 transition-all" />
+                <div className="text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#FF652F] to-orange-300 tracking-tight mb-1">
+                  3 mins
+                </div>
+                <div className="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">
+                  Avg Response Time
+                </div>
+              </div>
+
+              {/* Card 4 */}
+              <div className="group relative overflow-hidden rounded-2xl bg-[#1E232A]/80 p-6 border border-white/5 shadow-lg hover:border-[#4ECDC4]/40 transition-all duration-300">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#4ECDC4]/10 rounded-full blur-2xl group-hover:bg-[#4ECDC4]/20 transition-all" />
+                <div className="text-3xl sm:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-[#4ECDC4] to-teal-200 tracking-tight mb-1">
+                  8+
+                </div>
+                <div className="text-xs sm:text-sm text-slate-300 font-medium tracking-wide">
+                  Years Experience
                 </div>
               </div>
             </div>
