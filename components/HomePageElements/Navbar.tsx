@@ -15,11 +15,13 @@ const Navbar = () => {
     );
   };
   return (
-    <header className="sticky top-0 z-40 backdrop-blur-md bg-[#FAF9F6]/80 border-b border-[#2B303A]/5 transition-all">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    <header className=" fixed w-full top-0 z-40  p-5   transition-all">
+      <div className="max-w-5xl bg-white rounded-4xl shadow-2xl mx-auto bg-red  px-4 sm:px-6 lg:px-8  h-18 flex items-center justify-between">
         {/* Logo Section matching uploaded Web Mung logo design */}
         <div className="flex items-center gap-3 cursor-pointer group">
-          <Image src={Logo} alt="Web Mung Logo" width={150} height={100} />
+          <Link href={`/`}>
+            <Image src={Logo} alt="Web Mung Logo" width={150} height={100} />
+          </Link>
         </div>
 
         {/* Navigation Menu Pill (Inspired by screenshot design) */}
@@ -30,8 +32,7 @@ const Navbar = () => {
             { name: "Services", path: "/service" },
             { name: "Our Work", path: "/our-work" },
             { name: "Team", path: "/team" },
-            { name: "Home", path: "/" },
-            { name: "Pricing", path: "/pricing" },  
+            { name: "Pricing", path: "/pricing" },
           ].map((item, idx) => (
             <Link
               key={idx}
